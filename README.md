@@ -25,14 +25,11 @@
 
 ## ⏬ Установка на локальном компьютере
 
-Клонируем удалённый репозиторий на локальную машину:
+1. Скачать проект
 
-```markdown
-git clone git@github.com:German-D/generation_file.git
-```
-Создать бота и через [@BotFather](https://t.me/BotFather) и вставить в проекте свой токен от бота
+2. Создать бота и через [@BotFather](https://t.me/BotFather) и вставить в проекте свой токен от бота
 
-Создаём виртуальное окружение внутри папки проекта.
+3. Создаём виртуальное окружение внутри папки проекта.
 Далее команды для MacOS (для windows инуструкция [есть вот тут](https://realpython.com/python-virtual-environments-a-primer/#create-it))
 
 ``` markdown
@@ -48,7 +45,7 @@ source venv/bin/activate
 python3 -m pip install pyTelegramBotAPI
 ```
 
-Запускаем
+4. Запускаем
 ``` markdown
 python3 main.py
 ```
